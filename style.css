@@ -1,0 +1,90 @@
+*{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+}
+body{
+    background-color: #0E171F !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.D1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.row{
+    width: 100%;
+}
+.container{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+}
+@media screen and (min-width:0px) and (max-width:576px) {
+    .container{
+        width: 90% !important;
+    }
+}
+.op{
+    background-color: #1A5B70;
+    color: white;
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    border: none;
+    font-size: 30px;
+}
+.num{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: #21394F;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 30px;
+}
+.equal{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: #D7F1A7;
+    color: black;
+    font-size: 30px !important;
+}
+@media screen and (min-width:0px) and (max-width:400px) {
+    .op,.num,.equal{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+#input{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px !important;
+    color: white;
+    text-align: right;
+    font-size: 38px;
+}
