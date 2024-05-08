@@ -27,3 +27,10 @@ function calculate() {
         
     }
 }
+
+
+function backspace() {
+    var currentValue = document.getElementById('input').value;
+    document.getElementById('input').value = currentValue.slice(0, -1);
+}
+
